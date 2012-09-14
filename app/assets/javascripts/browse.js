@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require underscore
-//= require_tree .
+//= require backbone_example.js.coffee
+//= require_tree views/browse
+
 //= require underscore
 //= require backbone

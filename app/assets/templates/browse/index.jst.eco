@@ -1,0 +1,23 @@
+<div class="page browse-index">
+	<div class="north top-panel">
+		top
+	</div>
+	<div class="west left-panel">
+		<div class="categories">
+			<div class="title">Categories</div>
+			<ul></ul>
+		</div>
+		<div class="properties">
+			<div class="title">Filter Results</div>
+			<ul></ul>
+		</div>
+	</div>
+	<div class="center right-panel">
+		Products
+		<div class="products">
+			<ul>
+
+			</ul>
+		</div>
+	</div>
+</div>

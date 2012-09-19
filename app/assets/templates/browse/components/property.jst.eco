@@ -1,0 +1,4 @@
+<div class='property'>
+	<div class='title'><%=@name%></div>
+	<ul class='property_values'></ul>
+</div>

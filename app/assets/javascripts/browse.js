@@ -13,8 +13,20 @@
 //= require jquery
 //= require jquery_ujs
 //= require underscore
-//= require backbone_example.js.coffee
-//= require_tree views/browse
-
-//= require underscore
 //= require backbone
+//= require_tree ../templates/browse
+//= require backbone_example.js.coffee
+
+//= require jquery.bounds
+//= require jquery.sizes
+//= require jlayout.border
+//= require jlayout.flexigrid
+//= require jquery.jlayout
+
+//= require_tree ./extensions
+//= require_tree ./models
+//= require_tree ./collections
+
+//= require_tree ./views/browse
+
+

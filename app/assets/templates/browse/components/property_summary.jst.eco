@@ -1,0 +1,2 @@
+<td class='title'><%=@name%></td>
+<td class='value'><%=@product_value%></td>

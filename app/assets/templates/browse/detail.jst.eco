@@ -1,0 +1,18 @@
+<div class="page browse-detail">
+	<div class="north top-panel">
+		<a href="#/">Back</a>
+	</div>
+	<div class="west left-panel">
+	</div>
+	<div class="center center-panel">
+		<div class="details">
+			<div class="title"><%=@name%></div>
+			<div class="price"><%=@price%></div>
+			<div class="properties">
+				<table></table>
+			</div>
+		</div>
+	</div>
+	<div class="east right-panel">
+	</div>
+</div>

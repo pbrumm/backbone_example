@@ -1,0 +1,14 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+    var data = <%=raw @data.to_json({})%>;
+    BackboneExample.init(data);
+
+    BackboneExample.router = new BackboneExample.Routers.Browse()
+    BackboneExample.router.navigate("/");
+    Backbone.history.start()
+  })
+</script>
+
+<div id="app">
+
+</div>

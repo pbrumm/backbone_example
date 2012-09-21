@@ -22,7 +22,7 @@ color.on("change", (model)=>
   if model.hasChanged("name")
     console.log("name changed from #{model.previous('name')} to #{model.get('name')}")
 )
-# same thing but only fires on name changes
+# same thing, but only fires on name changes
 color.on("change:name", (model)=>
   console.log("name changed from #{model.previous('name')} to #{model.get('name')}")
 )

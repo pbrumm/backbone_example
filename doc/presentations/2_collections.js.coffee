@@ -29,3 +29,4 @@ properties.select((property)=>
 
 properties.pluck("name")
 # returns ["Color", "Weight"]
+
